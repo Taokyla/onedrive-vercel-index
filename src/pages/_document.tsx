@@ -9,7 +9,7 @@ class MyDocument extends Document {
           <meta name="description" content="OneDrive Vercel Index" />
           <link rel="icon" href="/favicon.ico" />
           <link rel="preconnect" href="https://fonts.lug.ustc.edu.cn" />
-          <link rel="preconnect" href="https://fonts-gstatic.lug.ustc.edu.cn" crossOrigin="true" />
+          <link rel="preconnect" href="https://fonts-gstatic.lug.ustc.edu.cn" crossOrigin="" />
           {siteConfig.googleFontLinks.map(link => (
             <link key={link} rel="stylesheet" href={link} />
           ))}
